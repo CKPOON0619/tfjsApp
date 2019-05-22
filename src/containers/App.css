@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  font-family: Roboto "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#App-header {
+  position: fixed;
+  left: 0;
+  top:0;
+  width: 100%;
+  border: 1px solid red;
+  z-index: 999;
+  background-color: cornflowerblue;
+}
+
+#menu-button {
+  display:inline-block;
+  position: relative;
+  bottom: 5px;
+  left:calc(-50% + 60px);
+}
+
+#Aya {
+  display:inline-block;
+  position: relative;
+  text-shadow: 2px 2px 4px #ffffff;
+  left:calc(-50% + 60px);
+}
+
+#stage{
+  display:inline-block;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  /* bring your own prefixes */
+}
