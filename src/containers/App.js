@@ -3,6 +3,7 @@ import {ModelUpload} from "../components/Complex/ModelUpload";
 import {ModelTrain} from "../components/Complex/ModelTrain";
 import {ModelPredict} from "../components/Complex/ModelPredict";
 import {TextClassifier} from "../components/Complex/TextClassifier";
+import {AudioControlPage} from '../components/Complex/AudioControlPage';
 
 import "./App.css";
 
@@ -68,8 +69,10 @@ class App extends Component {
         onClickPredictLabel={()=>this.handleLabelPredictionSubmit()}
         showPredict={state.showTextLabelPredict}
       />
-      
-   }
+      }
+     case "audioControl": { 
+        return <AudioControlPage/>
+      }   
       default: { 
          //statements; 
          break; 

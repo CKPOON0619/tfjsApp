@@ -8,7 +8,6 @@ class DropFile extends Component {
       // files is a FileList of File objects. List some properties.
       if(props.files) {
         for (let i = 0, f; (f = props.files[i])&&i<4; i++) {
-          console.log(f.type)
           this.displayList.push(
             <li key={'f'+i.toString()+'_'+f.name}>
                 <strong> 

@@ -1,7 +1,7 @@
 //Handling change of state with payload
 
 const initial_state={
-    stage:'textClassifier',
+    stage:'audioControl',
     dataDim:null,
     inputFiles: null,
     inputData:[],

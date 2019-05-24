@@ -8,7 +8,8 @@ const options = [
   'modelUpload',
   'modelTrain',
   'modelPredict',
-  'textClassifier'
+  'textClassifier',
+   'audioControl'
 ];
 
 const ITEM_HEIGHT = 48;
